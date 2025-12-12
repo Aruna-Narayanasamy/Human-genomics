@@ -10,3 +10,4 @@
 ## Documentation
 - The complete workflow documentation is available in the Documentation folder
 - [01. Setup and Reference Genome Preparation](Documentation/01_Setup_and_Reference.md)
+- [02. FastQC files](Documentation/02_FASTQC_file.md)
