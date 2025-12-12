@@ -34,8 +34,7 @@ By working specifically with **chromosome 7**, this project becomes faster, more
 - Reduced computational load  
 - Faster alignment and variant calling  
 - Easier to interpret CFTR-specific variants  
-- Ideal for training and demonstration purposes  
-
+   
 ---
 
 ## **Project Objective**
@@ -50,8 +49,6 @@ This project aims to:
 - Perform variant calling (HaplotypeCaller)
 - Annotate variants (e.g., ClinVar, gene annotations)
 - Identify potential CFTR gene variants
-
-This workflow simulates a **clinical genomics pipeline** used in research and diagnostic labs.
 
 ---
 
