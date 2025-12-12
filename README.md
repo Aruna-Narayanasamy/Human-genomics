@@ -6,4 +6,7 @@
   - BWA-MEM
   - SAMTools
   - GATK
-  - 
+    
+## Documentation
+- The complete workflow documentation is available in the Documentation folder
+- [01. Setup and Reference Genome Preparation](Documentation/01_Setup_and_Reference.md)
