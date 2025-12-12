@@ -1,8 +1,10 @@
 # I.Setup and Reference Genome preparation
 
   This section explains how to download the reference genome and raw FASTQ files, create project directories and prepare the reference genome for downstream analysis.
+
+  ---
  
- ## I.1-Download Reference Genome and FASTQ Files
+ ## I.1 - Download Reference Genome and FASTQ Files
  
   Raw sequencing data and the chromosome 7 reference genome are required to begin any alignment or variant-calling workflow.
   FASTQ Files (SRR30615628) contain paired-end sequencing reads from the SRA database.
@@ -21,7 +23,7 @@
       wget https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos5/sra-pub-run-15/SRR30615628/SRR30615628_2.fastq.gz
       ```
 
- ## I.2-Create Project Directories
+ ## I.2 - Create Project Directories
  
   I created folders to organize reference files and raw sequence data.
  
@@ -34,7 +36,7 @@
    -  Reference_Genome/ - Stores chr7.fna, chr7.fna.fai, chr7.dict
    - Raw_Data/ - Stores FASTQ files (SRR30615628_1 & SRR30615628_2)
 
- ## I.3- Move Input Files
+ ## I.3 - Move Input Files
    - **Command** :
 
    ```bash
@@ -43,7 +45,7 @@
      mv SRR30615628_2.fastq.gz Raw_Data/
    ```
 
- ## I.4- Reference Genome preparation
+ ## I.4 - Reference Genome preparation
  
   Before alignment the reference genome must be prepared by unzipping, indexing, and creating a GATK sequence dictionary.
   
@@ -78,7 +80,7 @@
   -O /data/Reference_Genome/chr7.dict
 ```
 
-**Files generated in this step:**
+## I.5- Files generated in this step
 | Folder            | Files                          |
 |-------------------|--------------------------------|
 | Reference_Genome  | `chr7.fna` <br> `chr7.fna.fai` <br> `chr7.dict` |
