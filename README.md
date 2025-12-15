@@ -22,4 +22,4 @@
 ## Scripting
  - A Bash script (Scripting.sh) was created to capture the key commands used in this analysis from reference preparation to variant filtering.
  - The workflow was executed manually, and the script serves as a record and reproducible reference for the documented steps.
- - **Script file:** [WGS Pipeline Script](Scripts/Scripting.sh)
+ - **Script file:** [WGS Pipeline Script](Scripting.sh)
