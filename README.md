@@ -16,3 +16,4 @@
 - [05. Marking Duplicates](Documentation/05_Marking_Duplicates.md)
 - [06. Known sites preparation for BQSR](Documentation/06_Known_Sites_Preparation.md)
 - [07. Base quality score recalibration (BQSR)](Documentation/07_Base_Quality_Score_Recalibration(BQSR).md)
+- [08. Variant calling](Documentation/08_Variant_Calling.md)
