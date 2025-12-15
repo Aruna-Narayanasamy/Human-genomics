@@ -61,6 +61,13 @@ samtools index Output_Files/Alignment/dedup.bam
 ```
 - This command generates the output file of *dedup.bam.bai*
 
-## IV.6 - Output files 
+## IV.6 - Files generated in this step
 
+    Output_Files/Alingnment
   
+    - aln.RG.bam
+    - aln.RG.bam.bai
+    - dedup.bam
+    - dedup.bam.bai
+    - dup_metrics.txt
+     
