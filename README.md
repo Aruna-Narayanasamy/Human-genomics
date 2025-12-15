@@ -18,3 +18,8 @@
 - [07. Base quality score recalibration (BQSR)](Documentation/07_Base_Quality_Score_Recalibration(BQSR).md)
 - [08. Variant calling](Documentation/08_Variant_Calling.md)
 - [09. variant filtering](Documentation/09_Variant_Filtering.md)
+
+## Scripting
+ - A Bash script (Scripting.sh) was created to capture the key commands used in this analysis from reference preparation to variant filtering.
+ - The workflow was executed manually, and the script serves as a record and reproducible reference for the documented steps.
+ - **Script file:** [WGS Pipeline Script](scripts/scripting.sh)
