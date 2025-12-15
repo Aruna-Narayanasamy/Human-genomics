@@ -13,3 +13,4 @@
 - [02. Setup and Reference Genome Preparation](Documentation/02_Setup_and_Reference.md)
 - [03. FastQC files](Documentation/03_FastQC_File.md)
 - [04. Read Alignment](Documentation/04_Read_Alignment.md)
+- [05. Marking Duplicates](Documentation/05_Marking_Duplicates.md)
