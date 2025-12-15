@@ -6,6 +6,8 @@
   - BWA-MEM
   - SAMTools
   - GATK
+  - bcftools
+  - Docker
     
 ## Documentation
 - The complete workflow documentation is available in the Documentation folder
